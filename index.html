@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090d20" />
+  <meta name="description" content="A little light, a brighter beginning. Send warm Saal Mubarak wishes for Bestu Varas — Gujarati New Year 2083." />
+  <meta property="og:title" content="Saal Mubarak · A Brighter Beginning" />
+  <meta property="og:description" content="A warm Gujarati New Year wish for family, friends and everyone close to your heart." />
+  <meta property="og:type" content="website" />
+  <title>Saal Mubarak · A Brighter Beginning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient-glow ambient-glow--left" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow--right" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <main class="experience" id="experience">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Saal Mubarak home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>THE NEW BEGINNING</span>
+      </a>
+      <span class="edition">BESTU VARAS <i></i> 2083</span>
+    </header>
+
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> TUESDAY · 10 NOVEMBER 2026</p>
+        <p class="pretitle">A little light for a beautiful new year</p>
+        <h1 id="hero-title">A brighter<br /><em>beginning.</em></h1>
+        <p class="hero-description">As the night settles over the city, may new hopes rise, hearts feel lighter, and every home welcome a little more happiness.</p>
+
+        <div class="hero-actions">
+          <button class="button button-primary" id="light-button" type="button">
+            <span class="button-icon" aria-hidden="true">✧</span>
+            <span>Light the diya</span>
+            <span class="button-arrow" aria-hidden="true">↗</span>
+          </button>
+          <span class="hint" id="light-hint">A small light can begin something beautiful</span>
+        </div>
+
+        <div class="reveal-message" id="reveal-message" aria-live="polite" hidden>
+          <span class="reveal-rule"></span>
+          <span class="reveal-caption">THE WISH IS LIT</span>
+          <button class="saal-button" id="open-card-button" type="button">Saal Mubarak <span aria-hidden="true">↗</span></button>
+          <span class="reveal-subtitle">Tap to open your New Year wishes</span>
+        </div>
+      </div>
+
+      <div class="scene" aria-label="A glowing diya on a mountain overlooking a festive city at night">
+        <div class="scene-vignette" aria-hidden="true"></div>
+        <div class="moon" aria-hidden="true"><span></span></div>
+        <div class="scene-starfield" id="starfield" aria-hidden="true"></div>
+        <div class="distant-haze" aria-hidden="true"></div>
+
+        <div class="hill hill-back" aria-hidden="true"></div>
+        <div class="hill hill-mid" aria-hidden="true"></div>
+        <div class="city-wrap" aria-hidden="true">
+          <svg class="city-art" viewBox="0 0 1100 440" preserveAspectRatio="xMidYMax meet" role="presentation">
+            <defs>
+              <linearGradient id="cityFade" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#172344" />
+                <stop offset="1" stop-color="#080d20" />
+              </linearGradient>
+              <linearGradient id="towerGlow" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#34456c" />
+                <stop offset="1" stop-color="#101a35" />
+              </linearGradient>
+              <filter id="windowGlow"><feGaussianBlur stdDeviation="2.2" /></filter>
+            </defs>
+            <path d="M0 440V248l35-23 0-18 12 0v18l33 21v-87l25-16 24 16v91l30-18v-54l39-24 39 24v87l27-17v-124l37-26 36 26v157l35-20v-83l27-17 27 17v101l31-18V161l32-19 32 19v140l30-18v-189l38-24 37 24v185l32-19v-98l27-17 27 17v82l33-19v-139l37-24 37 24v165l32-18v-93l27-17 27 17v76l38-22v-62l38-22 38 22v93l36-21v-130l39-25 39 25v151l35-20v-73l29-17 30 17v54l34-20v-99l37-23 37 23v81l43-25v230Z" fill="url(#cityFade)" stroke="#2a3a5d" stroke-opacity=".55" stroke-width="2"/>
+            <path d="M0 342 84 290l70 43 88-56 75 47 78-53 78 45 92-59 82 48 68-44 72 42 90-51 95 55 68-40 60 34v109H0Z" fill="#101a34" opacity=".7"/>
+            <g id="city-windows" fill="#ffc96d" opacity=".65">
+              <path d="M44 262h7v10h-7zm18-10h7v10h-7zm-18 31h7v10h-7zm51-111h6v11h-6zm18 13h6v11h-6zm-18 23h6v11h-6zm52 99h7v10h-7zm25-5h7v10h-7zm42-40h7v10h-7zm20 12h7v10h-7zm50-69h7v10h-7zm20 17h7v10h-7zm-20 28h7v10h-7zm50 66h7v10h-7zm22-12h7v10h-7zm28-106h7v10h-7zm20 17h7v10h-7zm-20 24h7v10h-7zm-20 26h7v10h-7zm80 52h7v10h-7zm26-17h7v10h-7zm25-118h7v10h-7zm22 17h7v10h-7zm-22 25h7v10h-7zm-22 25h7v10h-7zm88 37h7v10h-7zm24-16h7v10h-7zm28-90h7v10h-7zm22 17h7v10h-7zm-22 25h7v10h-7zm-22 24h7v10h-7zm82 53h7v10h-7zm27-16h7v10h-7zm28-69h7v10h-7zm22 17h7v10h-7zm-22 25h7v10h-7zm-22 25h7v10h-7zm84 29h7v10h-7zm28-17h7v10h-7zm30-48h7v10h-7zm22 16h7v10h-7zm-22 24h7v10h-7zm82 40h7v10h-7zm24-16h7v10h-7zm28-77h7v10h-7zm22 17h7v10h-7zm-22 24h7v10h-7z"/>
+            </g>
+            <g fill="#ffe6ac" opacity=".28" filter="url(#windowGlow)">
+              <circle cx="119" cy="193" r="15"/><circle cx="404" cy="284" r="12"/><circle cx="618" cy="201" r="17"/><circle cx="882" cy="263" r="15"/>
+            </g>
+            <path d="M0 420 Q220 387 380 415T760 410T1100 402V440H0Z" fill="#080d1d" opacity=".8"/>
+          </svg>
+          <div class="city-glow city-glow-one"></div>
+          <div class="city-glow city-glow-two"></div>
+        </div>
+
+        <div class="hill hill-front" aria-hidden="true"></div>
+        <div class="rock-platform" aria-hidden="true"></div>
+        <div class="diya-wrap" id="diya" aria-hidden="true">
+          <div class="diya-halo"></div>
+          <div class="flame"><span></span></div>
+          <div class="wick"></div>
+          <div class="diya-bowl"><span class="diya-rim"></span><span class="diya-shine"></span></div>
+          <div class="diya-shadow"></div>
+        </div>
+        <div class="scene-caption"><span class="caption-dot"></span> A LIGHT FOR EVERY HOME</div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>GUJARATI NEW YEAR · VIKRAM SAMVAT 2083</span>
+        <span class="scroll-cue">LET THE LIGHT BEGIN <b>↓</b></span>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>MADE WITH LIGHT <b>✦</b> SHARED WITH LOVE</span>
+      <button class="text-button" id="share-button" type="button">Share this greeting <span aria-hidden="true">↗</span></button>
+    </footer>
+  </main>
+
+  <canvas id="fireworks" aria-hidden="true"></canvas>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <section class="card-overlay" id="card-overlay" aria-hidden="true" aria-labelledby="card-heading" role="dialog" aria-modal="true">
+    <div class="card-backdrop" data-close="true"></div>
+    <div class="wish-shell">
+      <div class="wish-topline">
+        <span class="wish-brand"><span>✦</span> A NEW YEAR WISH</span>
+        <button class="close-button" id="close-card-button" type="button" aria-label="Close wishes">×</button>
+      </div>
+      <div class="wish-card" id="wish-card">
+        <div class="wish-card-orbit orbit-one" aria-hidden="true"></div>
+        <div class="wish-card-orbit orbit-two" aria-hidden="true"></div>
+        <div class="wish-card-content">
+          <p class="card-kicker" id="card-kicker">A NEW BEGINNING</p>
+          <div class="card-motif" aria-hidden="true"><span>✧</span><i></i><span>✧</span></div>
+          <h2 id="card-heading">Saal Mubarak</h2>
+          <p class="card-message" id="card-message">May this new year open the doors to beautiful beginnings, fresh hopes and countless reasons to smile.</p>
+          <div class="card-divider"><span>✦</span></div>
+          <p class="card-signoff" id="card-signoff">Wishing you a year filled with light.</p>
+          <p class="card-gujarati" id="card-gujarati">નૂતન વર્ષાભિનંદન</p>
+        </div>
+        <span class="card-number" id="card-number">01 / 04</span>
+      </div>
+      <div class="wish-controls">
+        <button class="arrow-button" id="previous-card" type="button" aria-label="Previous wish" disabled>←</button>
+        <div class="card-dots" id="card-dots" aria-label="Choose a wish page">
+          <button class="card-dot active" type="button" data-index="0" aria-label="Wish 1" aria-current="step"></button>
+          <button class="card-dot" type="button" data-index="1" aria-label="Wish 2"></button>
+          <button class="card-dot" type="button" data-index="2" aria-label="Wish 3"></button>
+          <button class="card-dot" type="button" data-index="3" aria-label="Wish 4"></button>
+        </div>
+        <button class="arrow-button arrow-button-next" id="next-card" type="button" aria-label="Next wish">→</button>
+      </div>
+      <div class="wish-bottom">
+        <span>FOR FAMILY · FRIENDS · EVERYONE</span>
+        <button class="share-card-button" id="share-card-button" type="button">Share the love <span>↗</span></button>
+      </div>
+      <p class="swipe-note">You can also swipe through the wishes</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
